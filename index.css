@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container{
+    background-color: #e3f3f7;
+    border-radius: 15px;
+}
+.container .main {
+    font-size: 28px;
+    font-weight: bold;
+}
+.container .main .counter {
+    padding: 0px 8px;
+    border-radius: 5px;
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    font-size: 18px;
+}
+.container .main-btn {
+    padding: 10px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: hsl(219, 12%, 42%);
+}
+.container .notification {
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.container .notification .notifi-text {
+    padding: 10px 0px;
+    color: hsl(219, 12%, 42%);
+}
+.container .notification .notifi-text .user {
+    font-weight: 800;
+    cursor: pointer;
+    color: black;
+}
+.container .notification .notifi-text .event {
+    font-weight: 800;
+    cursor: pointer;
+}
+.container .notification .notifi-text .unread-span {
+    padding: 0px 6px;
+    color: hsl(1, 90%, 64%);
+    font-size: 10px;
+}
+.container .notification .notifi-text .date {
+    display: block;
+    color: #5c6069b9;
+}
+.container .notification .notifi-text p {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    cursor: pointer;
+}
+.container .notification .notifi-img img {
+    cursor: pointer;
+}
+.container .arrow i {
+    font-size: 28px;
+    color: hsl(219, 85%, 26%);
+    transition: all 1s;
+    cursor: pointer;
+    text-align: center;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
