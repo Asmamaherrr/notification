@@ -8,6 +8,7 @@
 .container{
     background-color: #e3f3f7;
     border-radius: 15px;
+    overflow: hidden;
 }
 .container .main {
     font-size: 28px;
